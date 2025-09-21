@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Flask App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .endpoint {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Test Flask App</h1>
+    <div class="container">
+        <h2>Available Endpoints</h2>
+        <div class="endpoint">
+            <h3>Home Page</h3>
+            <p>Path: <code>/</code></p>
+            <p>Method: GET</p>
+            <p>Description: This page</p>
+        </div>
+        <div class="endpoint">
+            <h3>API Information</h3>
+            <p>Path: <code>/api/info</code></p>
+            <p>Method: GET</p>
+            <p>Description: Get API details and available endpoints</p>
+        </div>
+        <div class="endpoint">
+            <h3>Sample Data</h3>
+            <p>Path: <code>/api/data</code></p>
+            <p>Method: GET</p>
+            <p>Description: Get sample data items</p>
+        </div>
+    </div>
+</body>
+</html>
